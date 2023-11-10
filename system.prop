@@ -1,9 +1,12 @@
 # Google Lens
 ro.com.google.lens.oem_camera_package=com.android.camera
 
-# Framework allowlists
-persist.vendor.camera.privapp.list=com.android.camera
-#vendor.camera.aux.packagelist=com.android.camera
-
 # MiuiCamera
 ro.miui.notch=1
+ro.product.mod_device=xaga_global
+camera.lab.options=true
+persist.log.tag.HapticCompat=S
+persist.log.tag.CAM_CameraUtil=S
+persist.log.tag.OneHopHelper=S
+persist.log.tag.DeviceUtils=S
+persist.log.tag.CAM_BoostFrameworkImpl=S
